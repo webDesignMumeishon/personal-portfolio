@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'find-henry-app',
+    description: "",
+    image: '/images/find-henry-app.png',
+    tags: ['MongoDB', 'Mongoose', "AJAX", "React", "PassportJs", "Express", "JSON Web Token"],
+    source: 'https://github.com/webDesignMumeishon/red-henry',
+    visit: 'https://find-closest-henry.netlify.app/',
+    id: 0,
+  },
+  {
     title: 'Movie App',
     description: "The project consists of calling an API (http://www.omdbapi.com/). The user types the movie in the search bar, after clicking the API is called and a set of movies in the main page are shown with details displayed, to see further details the user have to click over the name. Every single movie can be added to the favorite sections.",
       image: '/images/movie-app.png',
       tags: ['React', 'Redux', "AJAX"],
     source: 'https://github.com/webDesignMumeishon/movie-app',
     visit: 'https://movie-app-mumeishon.netlify.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'books-counter-app',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Javascript', 'HTML', 'CSS'],
     source: 'https://github.com/webDesignMumeishon/books-counter-app',
     visit: 'https://webdesignmumeishon.github.io/books-counter-app/',
-    id: 1,
+    id: 2,
   },
 ];
 

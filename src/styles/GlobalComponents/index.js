@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
+
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
@@ -55,6 +56,8 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
+border-top: 1px solid rgba(255, 255, 255, 0.1);
+
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;

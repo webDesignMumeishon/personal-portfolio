@@ -1,11 +1,14 @@
 import styled from "styled-components"
 
 export const Boxes = styled.div`
+border-top: 1px solid rgba(255, 255, 255, 0.1);
+
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  margin: 24px 0 40px;
+  margin: 10px 0 40px;
+  padding: 15px 0px;
 
   @media ${props => props.theme.breakpoints.md}{
     gap: 16px;

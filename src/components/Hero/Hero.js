@@ -9,7 +9,7 @@ const Hero = (props) => (
    <LeftSection>
     <SectionTitle main center>
     {/* Hey welcome ! <br/> */}
-    Tomas ignacio Macchi, Fullstack Developer.
+    Tomas ignacio Macchi, <br/>Fullstack Developer.
     </SectionTitle>
     <SectionText>
     Hey ! Welcome to my personal portfolio <br/>

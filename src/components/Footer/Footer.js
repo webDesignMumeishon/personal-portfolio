@@ -1,12 +1,13 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
+import {SectionTitle } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
+      <SectionTitle>Contact Info</SectionTitle>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -18,6 +19,15 @@ const Footer = () => {
             muma.sanmartin2011@gmail.com
           </LinkItem>
         </LinkColumn>
+
+        <LinkColumn>
+          <LinkTitle >Resume</LinkTitle>
+          {/* the file goes under the public directory */}
+          <LinkItem href="./resume.pdf" download>
+            Download .pdf
+          </LinkItem>
+        </LinkColumn>
+
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
