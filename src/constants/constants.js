@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'find-henry-app',
-    description: "The app consists in a map where all the registered and verified users can be seen in the location that was selected by them. The app was meant to have all the henry bootcamp’s graduates connected across the world. It was developed using MongoDB and mongoose for the database (no-sql), express for the server side and React.js for the front-end. Also, the site has its own admin page, where the administrator has the power to add and delete users. A login system was implemented together with a reset password, all done using jwtoken",
+    description: "The app consists in a map where all the registered and verified users can be seen in the location that was selected by them. The app was meant to have all the henry bootcamp’s graduates connected across the world. The back-end was developed using MongoDB & Mongoose for the database, and Express. React.js for client side. Also, the site has its own admin page. A login system was implemented together with a reset password.",
     image: '/images/find-henry-app.png',
     tags: ['MongoDB', 'Mongoose', "React", "Express"],
     source: 'https://github.com/webDesignMumeishon/red-henry',
