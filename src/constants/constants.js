@@ -3,7 +3,7 @@ export const projects = [
     title: 'find-henry-app',
     description: "",
     image: '/images/find-henry-app.png',
-    tags: ['MongoDB', 'Mongoose', "AJAX", "React", "PassportJs", "Express", "JSON Web Token"],
+    tags: ['MongoDB', 'Mongoose', "React", "Express"],
     source: 'https://github.com/webDesignMumeishon/red-henry',
     visit: 'https://find-closest-henry.netlify.app/',
     id: 0,
