@@ -23,7 +23,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle >Resume</LinkTitle>
           {/* the file goes under the public directory */}
-          <LinkItem href="./resume.pdf" download>
+          <LinkItem href="./fullstackresume.pdf" download>
             Download .pdf
           </LinkItem>
         </LinkColumn>
