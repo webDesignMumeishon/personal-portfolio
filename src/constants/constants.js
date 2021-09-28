@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'videogames-app',
-    description: "The projectconsists of calling an API (https://rawg.io/apidocs) to show an initial set of 80 videogames on the /home page to see a variety of items and click over oneand to access the details about the platforms, genres, name, released date, etc.The app has a database built with Sequelize and Postgres where the client canadd new games by filling up a form. For the front-end was developed using React and Redux. ",
+    description: "The project consists of calling an API (https://rawg.io/apidocs) to show an initial set of 80 videogames on the /home page to see a variety of items and click over one and to access the details about the platforms, genres, name, released date, etc.The app has a database built with Sequelize and Postgres where the client can add new games by filling up a form. For the front-end was developed using React and Redux. ",
     image: '/images/videogame-app.png',
     tags: ['Sequelize', 'Postgres', "React", "Express"],
     source: 'https://github.com/webDesignMumeishon/videogames-main',
