@@ -1,12 +1,22 @@
 export const projects = [
   {
+    title: 'truco-henry-app',
+    description: "This is the final project built in the last stage of the bootcamp. It was developed by a team of 6 people using the SCRUM and agile methodologies and GitHub to manage the project’s versions. It consists in a very popular Card Game played in some parts of Latin America.Users can create an account and make friends as well as engage in a small community. It was built using Socket.io, Postgres, Sequelize, React, Express are the most important libraries. The project reached one of the highest scores of the bootcamp.",
+    image: '/images/truco-henry-app.png',
+    tags: ['Sequelize', 'Postgres', "React", "Express", "Socket.io"],
+    source: 'https://github.com/nelsonosorio3/truco-online',
+    visit: 'https://trucohenry.com/',
+    id: 0,
+  },
+
+  {
     title: 'videogames-app',
     description: "The project consists of calling an API (https://rawg.io/apidocs) to show an initial set of 80 videogames on the /home page to see a variety of items and click over one and to access the details about the platforms, genres, name, released date, etc.The app has a database built with Sequelize and Postgres where the client can add new games by filling up a form. For the front-end was developed using React and Redux. ",
     image: '/images/videogame-app.png',
     tags: ['Sequelize', 'Postgres', "React", "Express"],
     source: 'https://github.com/webDesignMumeishon/videogames-main',
     visit: 'https://videogames-app-pi.netlify.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'find-henry-app',
@@ -15,7 +25,7 @@ export const projects = [
     tags: ['MongoDB', 'Mongoose', "React", "Express"],
     source: 'https://github.com/webDesignMumeishon/red-henry',
     visit: 'https://find-closest-henry.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Movie App',
@@ -24,7 +34,7 @@ export const projects = [
       tags: ['React', 'Redux', "AJAX"],
     source: 'https://github.com/webDesignMumeishon/movie-app',
     visit: 'https://movie-app-mumeishon.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'books-counter-app',
@@ -33,7 +43,7 @@ export const projects = [
     tags: ['Javascript', 'HTML', 'CSS'],
     source: 'https://github.com/webDesignMumeishon/books-counter-app',
     visit: 'https://webdesignmumeishon.github.io/books-counter-app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'weather-app',
@@ -42,7 +52,7 @@ export const projects = [
     tags: ['Javascript', 'HTML', 'CSS', 'React'],
     source: 'https://github.com/webDesignMumeishon/weather-app',
     visit: 'https://weather-app-tomasmacchi.netlify.app/',
-    id: 4,
+    id: 5,
   },
 ];
 
