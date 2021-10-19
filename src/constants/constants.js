@@ -54,6 +54,15 @@ export const projects = [
     visit: 'https://weather-app-tomasmacchi.netlify.app/',
     id: 5,
   },
+  {
+    title: 'todo-app',
+    description: "The app is a simple todo application with a database set up in Firebase. It was built meanwhile looking for my first developer job, to sharp my React/Redux skills",
+    image: '/images/todo-app.png',
+    tags: ['Javascript', 'Redux', 'CSS', 'React', 'Firebase'],
+    source: 'https://github.com/webDesignMumeishon/evernote-clone',
+    visit: 'https://evernote-clone-d7098.web.app/',
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
