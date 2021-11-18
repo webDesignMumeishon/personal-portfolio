@@ -63,6 +63,15 @@ export const projects = [
     visit: 'https://evernote-clone-d7098.web.app/',
     id: 5,
   },
+  {
+    title: 'student-profiles-app',
+    description: "This app was created as part of a challenge sent by Hatchwats platform to assess my front-end skills. It consist in calling an API which has an array of students.The technologies used were React, Javascript, HTML and CSS.",
+    image: '/images/student-profiles-app.png',
+    tags: ['Javascript', 'CSS', 'React', 'HTML'],
+    source: 'https://github.com/webDesignMumeishon/challenge-student-profiles',
+    visit: 'https://challenge-students-profiles.netlify.app/',
+    id: 6,
+  },
 ];
 
 export const TimeLineData = [
