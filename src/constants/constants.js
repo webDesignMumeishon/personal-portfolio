@@ -72,6 +72,24 @@ export const projects = [
     visit: 'https://challenge-students-profiles.netlify.app/',
     id: 6,
   },
+  {
+    title: 'meme-generator-app',
+    description: "This is my first app created after learning TypeScript. It calls an API which brings a set of popular memes. You can add a title in the bottom ass well as the top, making the image an authentic meme creation.",
+    image: '/images/meme-generator-app.png',
+    tags: ['TypeScript', 'CSS', 'React', 'HTML'],
+    source: 'https://github.com/webDesignMumeishon/meme-generator-app',
+    visit: 'https://meme-generator-typescript-app.netlify.app/',
+    id: 7,
+  },
+  {
+    title: 'ping-pong-app',
+    description: "This app was created as part of a challenge given by a Gaming Company. It is the classic game Ping Pong. It is played by two person simultaneously.",
+    image: '/images/ping-pong-app.png',
+    tags: ['JavaScript', 'CSS', 'HTML'],
+    source: 'https://github.com/webDesignMumeishon/ping-pong-app',
+    visit: 'https://ping-pong-app-challenge.netlify.app/',
+    id: 8,
+  },
 ];
 
 export const TimeLineData = [
