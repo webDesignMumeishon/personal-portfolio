@@ -14,7 +14,7 @@ const Footer = () => {
           <LinkItem href="tel:+5493794658844">+54 9 3794 658844</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
+          <LinkTitle>Email [change]</LinkTitle>
           <LinkItem href="mailto:muma.sanmartin2011@gmail.com">
             muma.sanmartin2011@gmail.com
           </LinkItem>
