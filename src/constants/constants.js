@@ -21,7 +21,7 @@ export const projects = [
 
   {
     title: 'steam-deals-app',
-    description: "The project consists of calling an API (https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15) to show an initial set of deals",
+    description: "The project was part of a challenge and consists of calling an API (https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15) to show an initial set of games deals.It is a SPA built in react using plain CSS and some react icons and loaders. It has different functionalities, among them, a search bar to look for deals by the game's name. Also, deals can be added to the car, and when clicking on the car icon a panel with all the deals and the total price will be displayed.",
     image: '/images/steam-deals-app.png',
     tags: ["React", "HTML", "CSS"],
     source: 'https://github.com/webDesignMumeishon/steam-deals-app',
