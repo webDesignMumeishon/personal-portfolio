@@ -18,6 +18,17 @@ export const projects = [
     visit: 'https://videogames-app-pi.netlify.app/',
     id: 1,
   },
+
+  {
+    title: 'steam-deals-app',
+    description: "The project consists of calling an API (https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15) to show an initial set of deals",
+    image: '/images/steam-deals-app.png',
+    tags: ["React", "HTML", "CSS"],
+    source: 'https://github.com/webDesignMumeishon/steam-deals-app',
+    visit: 'https://steam-deals-app.netlify.app/',
+    id: 2,
+  },
+
   {
     title: 'find-henry-app',
     description: "The app consists of a map where all the registered and verified users can be seen in the location that was selected by them. The app was meant to have all the henry bootcamp’s graduates connected across the world. The back-end was developed using MongoDB & Mongoose for the database, and Express. React.js for client side. Also, the site has its own admin page. A login system was implemented together with a reset password.",
@@ -25,7 +36,7 @@ export const projects = [
     tags: ['MongoDB', 'Mongoose', "React", "Express"],
     source: 'https://github.com/webDesignMumeishon/red-henry',
     visit: 'https://find-closest-henry.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Movie App',
@@ -34,7 +45,7 @@ export const projects = [
       tags: ['React', 'Redux', "AJAX"],
     source: 'https://github.com/webDesignMumeishon/movie-app',
     visit: 'https://movie-app-mumeishon.netlify.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'books-counter-app',
@@ -43,7 +54,7 @@ export const projects = [
     tags: ['Javascript', 'HTML', 'CSS'],
     source: 'https://github.com/webDesignMumeishon/books-counter-app',
     visit: 'https://webdesignmumeishon.github.io/books-counter-app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'weather-app',
@@ -52,7 +63,7 @@ export const projects = [
     tags: ['Javascript', 'HTML', 'CSS', 'React'],
     source: 'https://github.com/webDesignMumeishon/weather-app',
     visit: 'https://weather-app-tomasmacchi.netlify.app/',
-    id: 5,
+    id: 6,
   },
   {
     title: 'todo-app',
@@ -61,7 +72,7 @@ export const projects = [
     tags: ['Javascript', 'Redux', 'CSS', 'React', 'Firebase'],
     source: 'https://github.com/webDesignMumeishon/evernote-clone',
     visit: 'https://evernote-clone-d7098.web.app/',
-    id: 5,
+    id: 7,
   },
   {
     title: 'student-profiles-app',
@@ -70,7 +81,7 @@ export const projects = [
     tags: ['Javascript', 'CSS', 'React', 'HTML'],
     source: 'https://github.com/webDesignMumeishon/challenge-student-profiles',
     visit: 'https://challenge-students-profiles.netlify.app/',
-    id: 6,
+    id: 8,
   },
   {
     title: 'meme-generator-app',
@@ -79,7 +90,7 @@ export const projects = [
     tags: ['TypeScript', 'CSS', 'React', 'HTML'],
     source: 'https://github.com/webDesignMumeishon/meme-generator-app',
     visit: 'https://meme-generator-typescript-app.netlify.app/',
-    id: 7,
+    id: 9,
   },
   {
     title: 'ping-pong-app',
@@ -88,7 +99,7 @@ export const projects = [
     tags: ['JavaScript', 'CSS', 'HTML'],
     source: 'https://github.com/webDesignMumeishon/ping-pong-app',
     visit: 'https://ping-pong-app-challenge.netlify.app/',
-    id: 8,
+    id: 10,
   },
 ];
 
