@@ -131,7 +131,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey', },
-  { year: 2021, text: 'Got into a Henry Bootcamp', },
-  { year: 2021, text: 'Currently looking for my first job as a developer', },
+  { year: "03/01/2020", text: 'Started my journey into IT', },
+  { year: "06/01/2021", text: 'Enrolled in Henry Bootcamp', },
+  { year: "12/04/2021", text: 'Got my first React Developer Job at Devlights-Argentina.', },
 ];
