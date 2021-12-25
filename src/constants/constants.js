@@ -110,6 +110,24 @@ export const projects = [
     visit: 'https://landing-page-mountains.netlify.app/',
     id: 11,
   },
+  {
+    title: 'speed-typing-game',
+    description: "Speed Typing Game is a game in which a person can test the speed in his writing. The app was developed while improving my typescript skills.",
+    image: '/images/speed-typing-game.png',
+    tags: ['JavaScript', 'CSS', 'HTML', "React", "TypeScript"],
+    source: 'https://github.com/webDesignMumeishon/speed-typing-game',
+    visit: 'https://speed-typing-game-app.netlify.app/',
+    id: 12,
+  },
+  {
+    title: 'task-tracker-app',
+    description: "This was my first React Single Page Application. It was built by following a tutorial. It is fully responsive",
+    image: '/images/task-tracker.png',
+    tags: ['JavaScript', 'CSS', 'HTML', "React"],
+    source: 'https://github.com/webDesignMumeishon/react-task-tracker',
+    visit: 'https://app-task-tracker.netlify.app/',
+    id: 13,
+  },
 ];
 
 export const TimeLineData = [
