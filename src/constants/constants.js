@@ -101,6 +101,15 @@ export const projects = [
     visit: 'https://ping-pong-app-challenge.netlify.app/',
     id: 10,
   },
+  {
+    title: 'los-angeles-mountain',
+    description: "This is a landing page design and created for my first client ever. It was developed using Vainilla JavaScript, Html and Css. It is a fully responsive site adaptable to any device.",
+    image: '/images/los-angeles-mountain.png',
+    tags: ['JavaScript', 'CSS', 'HTML'],
+    source: 'https://github.com/webDesignMumeishon/landing-page-mountains',
+    visit: 'https://landing-page-mountains.netlify.app/',
+    id: 11,
+  },
 ];
 
 export const TimeLineData = [
