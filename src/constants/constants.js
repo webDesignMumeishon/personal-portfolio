@@ -128,6 +128,15 @@ export const projects = [
     visit: 'https://app-task-tracker.netlify.app/',
     id: 13,
   },
+  {
+    title: 'scrimba-capstone-project',
+    description: "This is a project built as part of the Scrimba React Bootcamp following a step-by-step tutorial to apply all the knowledge learned in the course. The project was originally constructed using only Javascript, but on this occasion, I have included TypeScript.",
+    image: '/images/capstone-project-scrimba.png',
+    tags: ['JavaScript', 'TypeScript', "React"],
+    source: 'https://github.com/webDesignMumeishon/capstone-project-scrimba',
+    visit: 'https://scrimba-capstone-project-macchi.netlify.app/',
+    id: 14,
+  },
 ];
 
 export const TimeLineData = [
