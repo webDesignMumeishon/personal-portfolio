@@ -24,7 +24,7 @@ const Footer = () => {
           <LinkTitle >Resume</LinkTitle>
           {/* the file goes under the public directory */}
           <LinkItem href="https://drive.google.com/file/d/1jSv2EFSr4TE-61_b9OJAbTkyxoFdT1zf/view?usp=sharing">
-            PDF Link
+            Download Resume
           </LinkItem>
         </LinkColumn>
 
