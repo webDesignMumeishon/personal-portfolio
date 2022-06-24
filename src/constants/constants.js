@@ -137,10 +137,20 @@ export const projects = [
     visit: 'https://scrimba-capstone-project-macchi.netlify.app/',
     id: 14,
   },
+  {
+    title: 'coding-front-end-challenge',
+    description: "This is a coding challenge for a company I have recently applied, I converted a full .psd (photoshop) file into HTML, CSS and Javascript",
+    image: '/images/coalition-short-test.png',
+    tags: ['JavaScript', 'HTML', "CSS"],
+    source: 'https://github.com/webDesignMumeishon/front-end-challenge-coalition-technologies',
+    visit: 'https://front-end-coalition-technologies.netlify.app',
+    id: 15,
+  },
 ];
 
 export const TimeLineData = [
   { year: "03/01/2020", text: 'Started my journey into IT', },
   { year: "06/01/2021", text: 'Enrolled in Henry Bootcamp', },
   { year: "12/04/2021", text: 'Got my first React Developer Job at Devlights-Argentina.', },
+  { year: "01/15/2022", text: 'Started my first role as a backend developer in Mutual LDS Dating App.', },
 ];

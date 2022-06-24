@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I'm a fullstack developer and a lawyer. I'm passionate about coding, my journey in the IT industry started in the midst of the pandemic.  I really enjoyed the process of discovery and getting feedback from the community. It's exactly why I enjoy what I do all day as a developer, it motives me to growth and learn relentlessly. 
+      I'm a fullstack developer and a lawyer. I have found my passion about coding and software in the midst of the pandemic. Currently I'm working as a Backend Developer for Mutual LDS Dating App. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

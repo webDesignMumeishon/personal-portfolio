@@ -22,6 +22,7 @@ const Technologies = () =>  (
             Experiece with: <br />
             React.js <br />
             TypeScript <br />
+            MaterialUI <br />
             Redux <br />
             Bootstrap <br />
             jQuery
@@ -37,9 +38,13 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with:  <br />
             Node.js <br />
+            MySQL <br />
+            Elasticsearch <br />
+            AWS <br />
             Python <br />
             Sequelize <br />
             PostgreSQL <br />
+            TypeScript <br />
             MongoDB <br />
             Mongoose <br />
             Express.js 
